@@ -25,8 +25,9 @@ Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
 
  Khởi động lại máy để kết nối tới docker(đã kết nối thành công)
 
- 
-<img width="1450" height="781" alt="Screenshot 2025-11-05 024143" src="https://github.com/user-attachments/assets/26978d16-312b-49d8-83a7-47a9c4fa8c79" />
+
+<img width="1585" height="907" alt="Screenshot 2025-11-07 040138" src="https://github.com/user-attachments/assets/6d23d87b-92ff-4d7c-ab07-8dcc25113d21" />
+
 
 3. Tải các Docker Container bằng file docker-compose.yml:
 

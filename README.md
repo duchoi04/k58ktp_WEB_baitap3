@@ -57,8 +57,11 @@ Truy cập thử các ports(thành công):
 
 
 7. Lập trình web frontend+backend:
+   
  SV chọn 1 trong các web sau:
+ 
  4.1 Web thương mại điện tử
+ 
  - Tạo web dạng Single Page Application (SPA), chỉ gồm 1 file index.html, toàn bộ giao diện do javascript sinh động
    
  - Có tính năng login, lưu phiên đăng nhập vào cookie và session

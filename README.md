@@ -1,34 +1,85 @@
 # k58ktp_WEB_baitap3
 nội dung bài tập 3
 Bài tập 3   : môn Phát triển ứng dụng trên nền web
+
 Giảng viên  : Đỗ Duy Cốp
+
 Lớp học phần: 58KTPM
+
 Ngày giao   : 2025-10-24 13:50
+
 Hạn nộp     : 2025-11-05 00:00
+
 --------------------------------------------------
+
 Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
 1. Cài đặt môi trường linux: SV chọn 1 trong các phương án
- - enable wsl: cài đặt docker desktop
+
  - enable wsl: cài đặt ubuntu
- - sử dụng Hyper-V: cài đặt ubuntu
- - sử dụng VMware : cài đặt ubuntu
- - sử dụng Virtual Box: cài đặt ubuntu
+
+ <img width="1106" height="636" alt="Screenshot 2025-11-05 021701" src="https://github.com/user-attachments/assets/bb858d28-bd50-484d-90e6-e99117f5219d" />
+
 2. Cài đặt Docker (nếu dùng docker desktop trên windows thì nó có ngay)
-3. Sử dụng 1 file docker-compose.yml để cài đặt các docker container sau: 
-   mariadb (3306), phpmyadmin (8080), nodered/node-red (1880), influxdb (8086), grafana/grafana (3000), nginx (80,443)
-4. Lập trình web frontend+backend:
+
+<img width="946" height="700" alt="Screenshot 2025-11-05 021853" src="https://github.com/user-attachments/assets/1aebc4e5-c079-4259-8542-b75561e691f5" />
+
+ Khởi động lại máy để kết nối tới docker(đã kết nối thành công)
+
+ 
+<img width="1450" height="781" alt="Screenshot 2025-11-05 024143" src="https://github.com/user-attachments/assets/26978d16-312b-49d8-83a7-47a9c4fa8c79" />
+
+3. Tải các Docker Container bằng file docker-compose.yml:
+
+Em sử dụng visual code để tạo file docker compose.yml:
+
+<img width="1920" height="1073" alt="image" src="https://github.com/user-attachments/assets/794da388-ab8a-473a-b1dc-93864908efeb" />
+
+
+Chạy lệnh docker-compose up để tải xuống các Docker Container:
+
+<img width="1073" height="353" alt="Screenshot 2025-11-07 030006" src="https://github.com/user-attachments/assets/e2a3da07-1a9e-4017-8920-7f8cfcf8e302" />
+
+Kiểm tra các Container trên Docker Desktop(đã xuất hiện):
+
+<img width="1585" height="907" alt="image" src="https://github.com/user-attachments/assets/acddd11e-586f-4d56-8ced-e613da466528" />
+
+Truy cập thử các ports(thành công):
+
+<img width="1918" height="1060" alt="Screenshot 2025-11-07 030531" src="https://github.com/user-attachments/assets/edbd1b9d-0217-4831-a4ef-64b533859756" />
+
+<img width="1920" height="1074" alt="Screenshot 2025-11-07 030522" src="https://github.com/user-attachments/assets/f1fc7ef2-1a03-450b-9b6d-8c00d5cb57f2" />
+
+<img width="1916" height="1073" alt="Screenshot 2025-11-07 030514" src="https://github.com/user-attachments/assets/1937ebd2-f883-49ff-8600-2752f334ee7c" />
+
+<img width="1920" height="1072" alt="Screenshot 2025-11-07 030506" src="https://github.com/user-attachments/assets/e1346e9b-7d92-42ac-abb1-77ea8a8234d3" />
+
+
+
+7. Lập trình web frontend+backend:
  SV chọn 1 trong các web sau:
  4.1 Web thương mại điện tử
- - Tạo web dạng Single Page Application (SPA), chỉ gồm 1 file index.html, toàn bộ giao diện do javascript sinh động.
+ - Tạo web dạng Single Page Application (SPA), chỉ gồm 1 file index.html, toàn bộ giao diện do javascript sinh động
+   
  - Có tính năng login, lưu phiên đăng nhập vào cookie và session
-   Thông tin login lưu trong cơ sở dữ liệu của mariadb, được dev quản trị bằng phpmyadmin, yêu cầu sử dụng mã hoá khi gửi login.
+   
+   Thông tin login lưu trong cơ sở dữ liệu của mariadb, được dev quản trị bằng phpmyadmin, yêu cầu sử dụng mã hoá khi gửi login
+
    Chỉ cần login 1 lần, bao giờ logout thì mới phải login lại.
+  
  - Có tính năng liệt kê các sản phẩm bán chạy ra trang chủ
+   
  - Có tính năng liệt kê các nhóm sản phẩm
+   
  - Có tính năng liệt kê sản phẩm theo nhóm
+   
  - Có tính năng tìm kiếm sản phẩm
+   
  - Có tính năng chọn sản phẩm (đưa sản phẩm vào giỏ hàng, thay đổi số lượng sản phẩm trong giỏ, cập nhật tổng tiền)
+  
  - Có tính năng đặt hàng, nhập thông tin giao hàng => được 1 đơn hàng.
+   
+- backend: sử dụng nodered xử lý request gửi lên từ javascript, phản hồi về json.
+
   5. Nginx làm web-server
  - Cấu hình nginx để chạy được website qua url http://fullname.com  (thay fullname bằng chuỗi ko dấu viết liền tên của bạn)
  - Cấu hình nginx để http://fullname.com/nodered truy cập vào nodered qua cổng 80, (dù nodered đang chạy ở port 1880)

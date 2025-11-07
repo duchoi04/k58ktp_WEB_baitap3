@@ -26,34 +26,41 @@ Yêu cầu     : LẬP TRÌNH ỨNG DỤNG WEB trên nền linux
  Khởi động lại máy để kết nối tới docker(đã kết nối thành công)
 
 
-<img width="1585" height="907" alt="Screenshot 2025-11-07 040138" src="https://github.com/user-attachments/assets/6d23d87b-92ff-4d7c-ab07-8dcc25113d21" />
+<img width="1594" height="913" alt="image" src="https://github.com/user-attachments/assets/f532ad51-7cbf-457c-a584-a3966bb8363c" />
+
 
 
 3. Tải các Docker Container bằng file docker-compose.yml:
 
 Em sử dụng visual code để tạo file docker compose.yml:
 
-<img width="1920" height="1073" alt="image" src="https://github.com/user-attachments/assets/794da388-ab8a-473a-b1dc-93864908efeb" />
+<img width="1560" height="968" alt="image" src="https://github.com/user-attachments/assets/22089600-16a6-45db-bd22-b3847353e127" />
+
 
 
 Chạy lệnh docker-compose up để tải xuống các Docker Container:
 
-<img width="1073" height="353" alt="Screenshot 2025-11-07 030006" src="https://github.com/user-attachments/assets/e2a3da07-1a9e-4017-8920-7f8cfcf8e302" />
+<img width="955" height="364" alt="Screenshot 2025-11-07 220405" src="https://github.com/user-attachments/assets/80a2ed00-2332-489f-85be-ae1b2109da64" />
+<img width="937" height="425" alt="Screenshot 2025-11-07 220413" src="https://github.com/user-attachments/assets/8519592c-4470-499e-8e70-f111ef293a3c" />
+<img width="935" height="184" alt="Screenshot 2025-11-07 220426" src="https://github.com/user-attachments/assets/3ddb2669-b004-49b5-acd9-56c14e21477e" />
+
 
 Kiểm tra các Container trên Docker Desktop(đã xuất hiện):
 
-<img width="1585" height="907" alt="image" src="https://github.com/user-attachments/assets/acddd11e-586f-4d56-8ced-e613da466528" />
+<img width="1594" height="913" alt="Screenshot 2025-11-07 220733" src="https://github.com/user-attachments/assets/f50638ff-bd3a-443a-bc13-5484bc038356" />
+
 
 Truy cập thử các ports(thành công):
 
-<img width="1918" height="1060" alt="Screenshot 2025-11-07 030531" src="https://github.com/user-attachments/assets/edbd1b9d-0217-4831-a4ef-64b533859756" />
+<img width="1920" height="1080" alt="Screenshot 2025-11-07 220438" src="https://github.com/user-attachments/assets/51ce2aa6-18de-42a1-bdd6-53a40638c77e" />
 
-<img width="1920" height="1074" alt="Screenshot 2025-11-07 030522" src="https://github.com/user-attachments/assets/f1fc7ef2-1a03-450b-9b6d-8c00d5cb57f2" />
+<img width="1914" height="1080" alt="Screenshot 2025-11-07 220443" src="https://github.com/user-attachments/assets/753db052-6e9d-4aeb-bd49-99b4be8702cb" />
 
-<img width="1916" height="1073" alt="Screenshot 2025-11-07 030514" src="https://github.com/user-attachments/assets/1937ebd2-f883-49ff-8600-2752f334ee7c" />
+<img width="1920" height="1080" alt="Screenshot 2025-11-07 220503" src="https://github.com/user-attachments/assets/52748e22-9b15-4f5f-ad40-3bf83ce026b3" />
 
-<img width="1920" height="1072" alt="Screenshot 2025-11-07 030506" src="https://github.com/user-attachments/assets/e1346e9b-7d92-42ac-abb1-77ea8a8234d3" />
+<img width="1920" height="1080" alt="Screenshot 2025-11-07 220509" src="https://github.com/user-attachments/assets/2f8d3996-9faa-455b-8562-fa7d10dc6f73" />
 
+<img width="1911" height="1068" alt="Screenshot 2025-11-07 220553" src="https://github.com/user-attachments/assets/7b856bcd-7357-4205-a346-8e54008b4b5f" />
 
 
 7. Lập trình web frontend+backend:

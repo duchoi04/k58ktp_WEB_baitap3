@@ -63,33 +63,11 @@ Truy cập thử các ports(thành công):
 <img width="1911" height="1068" alt="Screenshot 2025-11-07 220553" src="https://github.com/user-attachments/assets/7b856bcd-7357-4205-a346-8e54008b4b5f" />
 
 
-7. Lập trình web frontend+backend:
+4. Lập trình web frontend+backend:
    
- SV chọn 1 trong các web sau:
- 
- 4.1 Web thương mại điện tử
- 
- - Tạo web dạng Single Page Application (SPA), chỉ gồm 1 file index.html, toàn bộ giao diện do javascript sinh động
-   
- - Có tính năng login, lưu phiên đăng nhập vào cookie và session
-   
-   Thông tin login lưu trong cơ sở dữ liệu của mariadb, được dev quản trị bằng phpmyadmin, yêu cầu sử dụng mã hoá khi gửi login
+<img width="1920" height="1076" alt="image" src="https://github.com/user-attachments/assets/a2629fe8-209d-4afe-8f06-afb8da9a3edf" />
 
-   Chỉ cần login 1 lần, bao giờ logout thì mới phải login lại.
-  
- - Có tính năng liệt kê các sản phẩm bán chạy ra trang chủ
-   
- - Có tính năng liệt kê các nhóm sản phẩm
-   
- - Có tính năng liệt kê sản phẩm theo nhóm
-   
- - Có tính năng tìm kiếm sản phẩm
-   
- - Có tính năng chọn sản phẩm (đưa sản phẩm vào giỏ hàng, thay đổi số lượng sản phẩm trong giỏ, cập nhật tổng tiền)
-  
- - Có tính năng đặt hàng, nhập thông tin giao hàng => được 1 đơn hàng.
-   
-- backend: sử dụng nodered xử lý request gửi lên từ javascript, phản hồi về json.
+ 
 
   5. Nginx làm web-server
  - Cấu hình nginx để chạy được website qua url http://fullname.com  (thay fullname bằng chuỗi ko dấu viết liền tên của bạn)

@@ -85,6 +85,11 @@ Truy cập thử các ports(thành công):
 
 <img width="1920" height="1039" alt="Screenshot 2025-11-08 022918" src="https://github.com/user-attachments/assets/f76908c2-8aa9-4306-9571-4a681adb7552" />
 
+6.
+  - Qua bài này em biết được cách cài ubuntu, docker
+  - Biết cách cài các Docker Container
+  - Biết cách lấy dữ liệu từ database đến nodered
+  - Biết cách cấu hình nginx để chạy được website qua url http : //fullname.com
 
 
 

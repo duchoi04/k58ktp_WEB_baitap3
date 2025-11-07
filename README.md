@@ -71,20 +71,21 @@ Truy cập thử các ports(thành công):
  em thưa thầy là đã cố gắng kết nối nhưng em vẫn ko kết nối được vào trang web.
 
   5. Nginx làm web-server
- - Cấu hình nginx để chạy được website qua url http://fullname.com  (thay fullname bằng chuỗi ko dấu viết liền tên của bạn)
- - Cấu hình nginx để http://fullname.com/nodered truy cập vào nodered qua cổng 80, (dù nodered đang chạy ở port 1880)
- - Cấu hình nginx để http://fullname.com/grafana truy cập vào grafana qua cổng 80, (dù grafana đang chạy ở port 3000)
 
-Yêu cầu sinh viên lưu code trên github
-có file readme.md có hình ảnh + text: ghi lại nhật ký quá trình làm bài.
+ - Cấu hình nginx để chạy được website qua url http://fullname.com(thay fullname bằng chuỗi ko dấu viết liền tên của bạn):
 
-CÁCH ĐÁNH GIÁ:
-1. Cài đặt được môi trường: 1đ
-2. Cài đặt được các docker container với cấu hình phù hợp: 1đ
-3. Web chạy được, giao diện phù hợp, chạy trên web sever nginx: 2đ
-4. nodered api trả về json, test được: 2đ
-5. front-end có js gọi được api nodered, nhận về json, hiển thị được kết quả từ json này. 2đ
-6. Bài làm có dấu ấn, giải thích rõ ràng, hiểu vấn đề: 2đ
- - Có tính năng dành cho admin: Thống kê xem có bao nhiêu đơn hàng, call để xác nhận và cập nhật thông tin đơn hàng. chuyển cho bộ phận đóng gói, gửi bưu điện, cập nhật mã COD, tình trạng giao hàng, huỷ hàng,...
- - Có tính năng dành cho admin: biểu đồ thống kê số lượng mặt hàng bán được trong từng ngày. (sử dụng grafana)
- - backend: sử dụng nodered xử lý request gửi lên từ javascript, phản hồi về json.
+   <img width="1916" height="1069" alt="Screenshot 2025-11-08 022732" src="https://github.com/user-attachments/assets/8e976075-8de0-471a-b911-2aa9ef05301a" />
+
+ - Cấu hình nginx để http://fullname.com/nodered:
+
+ <img width="1908" height="1025" alt="Screenshot 2025-11-08 022900" src="https://github.com/user-attachments/assets/69a60a82-fbb2-481a-8fab-b03fdff2b402" />
+
+   
+ - Cấu hình nginx để http://fullname.com/grafana:
+
+<img width="1920" height="1039" alt="Screenshot 2025-11-08 022918" src="https://github.com/user-attachments/assets/f76908c2-8aa9-4306-9571-4a681adb7552" />
+
+
+
+
+ 

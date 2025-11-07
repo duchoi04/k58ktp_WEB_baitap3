@@ -64,10 +64,11 @@ Truy cập thử các ports(thành công):
 
 
 4. Lập trình web frontend+backend:
+
    
 <img width="1920" height="1076" alt="image" src="https://github.com/user-attachments/assets/a2629fe8-209d-4afe-8f06-afb8da9a3edf" />
 
- 
+ em thưa thầy là đã cố gắng kết nối nhưng em vẫn ko kết nối được vào trang web.
 
   5. Nginx làm web-server
  - Cấu hình nginx để chạy được website qua url http://fullname.com  (thay fullname bằng chuỗi ko dấu viết liền tên của bạn)
